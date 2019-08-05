@@ -4,7 +4,7 @@
     "subtitle": "Introducción, setup y web (pt. I)",
     "description": "Web del curso, instalación de requerimientos e introducción a la web.",
     "download": "/",
-    "visible": True
+    "visible": False
   },
   {
     "title": "Módulo 2",
