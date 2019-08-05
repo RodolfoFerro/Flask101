@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Módulo 1",
+    "subtitle": "Introducción, setup y web (pt. I)",
+    "description": "Web del curso, instalación de requerimientos e introducción a la web.",
+    "download": "/",
+    "visible": True
+  },
+  {
+    "title": "Módulo 2",
+    "subtitle": "Python básico y web (pt. II)",
+    "description": "Introducción básica a la sintaxis de Python, scripting y elementos web con Bootstrap.",
+    "download": "/",
+    "visible": False
+  },
+  {
+    "title": "Módulo 3",
+    "subtitle": "Introducción a Flask",
+    "description": "Introducción a estructura backend con Flask, rutas, plantillas y Jinja.",
+    "download": "/",
+    "visible": False
+  },
+  {
+    "title": "Módulo 4",
+    "subtitle": "Diseño de una web app",
+    "description": "Integración de plantillas web con Flask usando elementos de Bootstrap.",
+    "download": "/",
+    "visible": False
+  },
+  {
+    "title": "Módulo 5",
+    "subtitle": "Bases de datos",
+    "description": "Introducción, creación, conexión y operaciones básicas a bases de datos con MongoDB.",
+    "download": "/",
+    "visible": False
+  },
+  {
+    "title": "Módulo 6",
+    "subtitle": "Deployment",
+    "description": "Despliegue de aplicaciones web con Glitch.",
+    "download": "/",
+    "visible": False
+  }
+]

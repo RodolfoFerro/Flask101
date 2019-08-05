@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+    <!-- About the course -->
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-md-8 mb-5">
+          <h2>Acerca de</h2>
+          <hr>
+          <p>Curso de introducción a desarrollo web con Flask. Aprende las bases de Python, que es un lenguaje de programación simple, elegante y poderoso. Con pocas líneas de código puedes hacer mucho, por ello es que cursos formales por algunas de las mejores universidades del mundo lo elijan para temas que van desde introducción a la programación, hasta desarrollo web, ciencia de datos e inteligencia artificial. </p>
+          <p>El curso tendrá los siguientes objetivos:
+            <ul>
+              <li>Introducir conceptos sobre la web moderna.</li>
+              <li>Introducir conceptos de programación básica e intermedia.</li>
+              <li>Desarrollar habilidades para crear tus propias aplicaciones web.</li>
+              <li>Generar material que pueda ser de uso posterior al curso y tengas la capacidad y posibilidad de desarrollar tus propios proyectos.</li>
+            </ul>
+          </p>
+          <a href="{{ base_url }}/static/assets/Introducción al desarrollo web con Flask.pdf" target="_blank"><button type="button" class="btn btn-primary">Descargar temario</button></a>
+        </div>
+        <div class="col-md-4 mb-5">
+          <h2>Contacto</h2>
+          <hr>
+          <address>
+            <strong>LAB León</strong>
+            <br> Dirección General de Innovación
+            <br>Calle Madero #322
+            <br>Zona Centro, 37000
+            <br>León, Gto.
+            <br>
+          </address>
+          <address>
+            <abbr title="Phone">Teléfono:</abbr>
+            (477) 758 4374
+            <br>
+            <abbr title="Email">Email:</abbr>
+            <a href="mailto:rodolfo.ferro@leon.gob.mx">rodolfo.ferro@leon.gob.mx</a>
+          </address>
+        </div>
+      </div>
+    </div>
+{% endblock %}
