@@ -3,8 +3,8 @@
     "title": "Módulo 1",
     "subtitle": "Introducción, setup y web (pt. I)",
     "description": "Web del curso, instalación de requerimientos e introducción a la web.",
-    "download": "/",
-    "visible": False
+    "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%201.zip",
+    "visible": True
   },
   {
     "title": "Módulo 2",
