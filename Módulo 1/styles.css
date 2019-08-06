@@ -1,0 +1,13 @@
+/* Hola crayola */
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Verdana";
+}
+h1 {
+  font-family: "Times New Roman";
+}
+.sangrienta {
+  color: rgb(255, 0, 0);
+  font-family: 'Lacquer', sans-serif, verdana;
+}
