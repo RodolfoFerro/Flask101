@@ -10,8 +10,8 @@
     "title": "Módulo 2",
     "subtitle": "Python básico y web (pt. II)",
     "description": "Introducción básica a la sintaxis de Python, scripting y elementos web con Bootstrap.",
-    "download": "/",
-    "visible": False
+    "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%202.zip",
+    "visible": True
   },
   {
     "title": "Módulo 3",
