@@ -17,8 +17,8 @@
     "title": "Módulo 3",
     "subtitle": "Introducción a Flask",
     "description": "Introducción a estructura backend con Flask, rutas, plantillas y Jinja.",
-    "download": "/",
-    "visible": False
+    "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%203.zip",
+    "visible": True
   },
   {
     "title": "Módulo 4",
