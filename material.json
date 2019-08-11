@@ -24,8 +24,8 @@
     "title": "Módulo 4",
     "subtitle": "Diseño de una web app",
     "description": "Integración de plantillas web con Flask usando elementos de Bootstrap.",
-    "download": "/",
-    "visible": False
+    "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%204.zip",
+    "visible": True
   },
   {
     "title": "Módulo 5",
