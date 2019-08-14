@@ -15,6 +15,14 @@
         <div class="row justify-content-md-center">
             <div class="col-md-auto text-center">
                 <h1 class="mt-5">Formulario para edad:</h1>
+                {% if flag %}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>Holy guacamole!</strong> Tienes uno o más campos vacíos.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                {% endif %}
                 <form action="" method="post" role="form">
                     <div class="form-group">
                         <br>

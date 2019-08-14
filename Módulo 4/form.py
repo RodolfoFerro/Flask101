@@ -9,5 +9,9 @@ class AgeForm(Form):
     age = IntegerField('age', validators=[DataRequired()])
 
 
+class EmailForm(Form):
+    email = StringField('email', validators=[DataRequired()])
+
+
 def legal_or_not(age):
     return (age >= 18)
