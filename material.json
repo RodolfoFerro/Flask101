@@ -31,8 +31,8 @@
     "title": "Módulo 5",
     "subtitle": "Bases de datos",
     "description": "Introducción, creación, conexión y operaciones básicas a bases de datos con MongoDB.",
-    "download": "/",
-    "visible": False
+    "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%205.zip",
+    "visible": True
   },
   {
     "title": "Módulo 6",
