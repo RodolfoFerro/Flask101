@@ -39,6 +39,6 @@
     "subtitle": "Deployment",
     "description": "Despliegue de aplicaciones web con Glitch.",
     "download": "https://github.com/RodolfoFerro/Flask101/raw/master/M%C3%B3dulo%206.zip",
-    "visible": False
+    "visible": True
   }
 ]
