@@ -1,3 +1,7 @@
+from dbutils import MONGO_URI
+from dbutils import db_connect
+from dbutils import db_insert_user
+from dbutils import db_find_all
 from form import EmailForm
 from form import LoginForm
 from flask import Flask
@@ -6,11 +10,7 @@ from flask import render_template
 
 
 app = Flask(__name__)
-
-
-@app.route('/tables')
-def tables():
-    return render_template('tables.html')
+users = db_connect(MONGO_URI, 'mi_app', 'users')
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -27,6 +27,11 @@ def index():
         if email != '' and name != '':
             print(f"Nombre capturado: {name}")
             print(f"Email capturado: {email}")
+            user = {
+                "name": name,
+                "email": email
+            }
+            db_insert_user(users, user)
             flag = True
 
     return render_template('index.html', flag=flag, name=name)
@@ -41,7 +46,8 @@ def login():
         print(form.errors)
     if request.method == 'POST':
         if form.username.data == 'admin' and form.password.data == 'admin':
-            return render_template('tables.html')
+            registered = db_find_all(users)
+            return render_template('tables.html', users=registered)
         else:
             login_error = True
     return render_template('login.html', login_error=login_error)

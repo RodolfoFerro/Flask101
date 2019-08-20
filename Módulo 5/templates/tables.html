@@ -74,14 +74,12 @@
                   </tr>
                 </tfoot>
                 <tbody>
-                  <!-- 
-                  HERE!
-                  ADD NAMES AND EMAILS IN FRONTEND:
+                  {% for user in users %}
                   <tr>
-                    <td>NAME</td>
-                    <td>EMAIL</td>
+                    <td>{{ user['name'] }}</td>
+                    <td>{{ user['email'] }}</td>
                   </tr>
-                  -->
+                  {% endfor %}
                 </tbody>
               </table>
             </div>
